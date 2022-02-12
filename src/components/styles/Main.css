@@ -46,3 +46,14 @@
     border-radius: 5px;
 }
 
+/* .image{
+     clip-path: polygon(100% 0%, 100% 50%, 100%);
+    background-color: grey; 
+} */
+
+.image img {
+    margin-top: 5rem;
+    height: 500px;
+    width: 600px;
+    object-fit: contain;
+}

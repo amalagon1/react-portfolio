@@ -1,0 +1,50 @@
+.test{
+    background-color: white;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 7px solid black;
+}
+
+.test h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 4rem;
+    text-align: center;
+    align-items: center;
+    width: 430px;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+.card img{
+    width: 30%;
+    height:10%;
+    border-radius: 50%;
+}
+
+.card p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+.card h5{
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Nav.css'
 import { MenuOutlined } from '@material-ui/icons'
+import { Data } from '../Data';
 
 function Nav() {
+    const [open, setOpen] = useState(false)
+
+    const showMenu = () => {
+        setOpen(!open)
+    }
     return (
         <div className='header'>
             <nav>
@@ -27,8 +33,19 @@ function Nav() {
                         <Link to='#'>Get in Contact</Link>
                     </li>
                     <div className="hamburger-menu">
-                        <MenuOutlined className='menu' />
+                        <MenuOutlined className='menu' onClick={showMenu} />
                     </div>
+                </ul>
+            </nav>
+            <nav className={open ? 'slider active' : 'slider'}>
+                <ul className='slider-ul' onClick={showMenu}>
+                    {Data.map((item, index) => {
+                        return (
+                            <li key={index} className={item.className}>
+                                <Link to={item.path}>{item.text}</Link>
+                            </li>
+                        )
+                    })}
                 </ul>
             </nav>
         </div>
