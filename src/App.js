@@ -3,7 +3,10 @@ import React from 'react';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import About from './components/About';
-import Testimonials from './components/Testimonials'
+import Testimonials from './components/Testimonials';
+import Projects from './components/Projects';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import "bootstrap/dist/css/bootstrap.css";
 
 
 function App() {
@@ -13,9 +16,11 @@ function App() {
       <Main />
       <About />
       <Testimonials />
+      <Projects />
 
     </div >
   );
 }
+
 
 export default App;

@@ -10,10 +10,10 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-.logo {
+.initials {
     margin-left: 1rem;
 }
-.logo h1 {
+.initials h1 {
     font-size: 30px;
     /* color: rgb(167, 35, 35); */
 }
@@ -30,6 +30,7 @@ nav{
     color: rgb();
     text-decoration: none;
     text-transform: uppercase;
+    color: black;
 }
 
 .ul-items li a:hover {

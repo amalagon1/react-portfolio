@@ -6,6 +6,7 @@ import test1 from '../../assets/images/test1.jpg';
 
 
 
+
 function Testimonials() {
     return (
         <section className='test'>
@@ -21,14 +22,14 @@ function Testimonials() {
             <div className="card-container">
                 <div className="card">
                     <img src={test2} alt="test3" />
-                    <p>John</p>
+                    <p>Mike</p>
                     <h5>Amazing web developer!</h5>
                 </div>
             </div>
             <div className="card-container">
                 <div className="card">
                     <img src={test1} alt="test3" />
-                    <p>John</p>
+                    <p>Jane</p>
                     <h5>Amazing web developer!</h5>
                 </div>
             </div>

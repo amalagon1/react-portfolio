@@ -13,7 +13,7 @@ function Nav() {
     return (
         <div className='header'>
             <nav>
-                <div className="logo">
+                <div className="initials">
                     <h1>A.M.</h1>
                 </div>
                 <ul className='ul-items'>
@@ -21,16 +21,16 @@ function Nav() {
                         <Link to='#'>Home</Link>
                     </li>
                     <li>
-                        <Link to='#'>About Me</Link>
+                        <Link to={'/about'}>About Me</Link>
                     </li>
                     <li>
-                        <Link to='#'>Projects</Link>
+                        <Link to='/projects'>Projects</Link>
                     </li>
                     <li>
-                        <Link to='#'>Testimonials</Link>
+                        <Link to={'/testimonials'}>Testimonials</Link>
                     </li>
                     <li>
-                        <Link to='#'>Get in Contact</Link>
+                        <Link to='/contact'>Contact</Link>
                     </li>
                     <div className="hamburger-menu">
                         <MenuOutlined className='menu' onClick={showMenu} />
