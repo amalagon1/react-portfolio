@@ -5,7 +5,7 @@ import Main from './components/Main';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Projects from './components/Projects';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.css";
 
 

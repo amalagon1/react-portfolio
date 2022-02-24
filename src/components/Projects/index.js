@@ -23,6 +23,12 @@ function Projects() {
             deployedLink: "https://amalagon1.github.io/code_refactor/",
             image: "horiseon.png"
         },
+        {
+            name: "React-Portfolio",
+            gitHubLink: "https://github.com/amalagon1/react-portfolio",
+            // deployedLink: "https://amalagon1.github.io/code_refactor/",
+            image: "portfolio.png"
+        }
 
     ];
 
